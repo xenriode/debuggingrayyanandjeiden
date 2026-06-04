@@ -499,7 +499,7 @@
                             <input type="radio" name="actuator-type" value="slider" id="a-slider">
                             <label for="a-slider" class="radio-label">
                                 <div class="text-sm font-medium mb-0.5">Slider</div>
-                                <div class="text-xs text-zinc-600">0 - 100%</div>
+                                <div class="text-xs text-zinc-600">0 - 1024</div>
                             </label>
                         </div>
                     </div>
@@ -639,7 +639,7 @@
                         '<span class="text-3xl font-semibold value-display ' + c.text + '" id="' + cardId + '-val">0</span>' +
                         '<span class="text-sm ' + c.text + '"></span>' +
                     '</div>' +
-                    '<input type="range" min="0" max="100" value="0" class="w-full mb-3" id="' + cardId + '-slider" data-id="' + a.id + '">' +
+                    '<input type="range" min="0" max="1024" value="0" class="w-full mb-3" id="' + cardId + '-slider" data-id="' + a.id + '">' +
                     '<p class="text-sm text-zinc-500">' + escapeHtml(a.label) + '</p>' +
                     '<button class="btn-remove absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity text-zinc-700 hover:text-red-500 p-1" data-id="' + a.id + '">' +
                         '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>' +
